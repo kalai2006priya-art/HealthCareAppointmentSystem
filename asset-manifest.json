@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HealthCareAppointmentSystem/static/css/main.f648de6a.css",
+    "main.js": "/HealthCareAppointmentSystem/static/js/main.6e40a4f9.js",
+    "index.html": "/HealthCareAppointmentSystem/index.html",
+    "main.f648de6a.css.map": "/HealthCareAppointmentSystem/static/css/main.f648de6a.css.map",
+    "main.6e40a4f9.js.map": "/HealthCareAppointmentSystem/static/js/main.6e40a4f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f648de6a.css",
+    "static/js/main.6e40a4f9.js"
+  ]
+}
