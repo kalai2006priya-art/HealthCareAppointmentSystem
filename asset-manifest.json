@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/HealthCareAppointmentSystem/static/css/main.f648de6a.css",
-    "main.js": "/HealthCareAppointmentSystem/static/js/main.6e40a4f9.js",
+    "main.css": "/HealthCareAppointmentSystem/static/css/main.e9202eb1.css",
+    "main.js": "/HealthCareAppointmentSystem/static/js/main.d1f53c6e.js",
     "index.html": "/HealthCareAppointmentSystem/index.html",
-    "main.f648de6a.css.map": "/HealthCareAppointmentSystem/static/css/main.f648de6a.css.map",
-    "main.6e40a4f9.js.map": "/HealthCareAppointmentSystem/static/js/main.6e40a4f9.js.map"
+    "main.e9202eb1.css.map": "/HealthCareAppointmentSystem/static/css/main.e9202eb1.css.map",
+    "main.d1f53c6e.js.map": "/HealthCareAppointmentSystem/static/js/main.d1f53c6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f648de6a.css",
-    "static/js/main.6e40a4f9.js"
+    "static/css/main.e9202eb1.css",
+    "static/js/main.d1f53c6e.js"
   ]
 }
