@@ -1,0 +1,75 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 249, 255, 0.95) 100%);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+  border-bottom: 2px solid rgba(59, 130, 246, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.nav h2 {
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav a {
+  margin-left: 30px;
+  color: #334155;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.nav span {
+  margin-left: 30px;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav button {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
+}
+
+.nav button:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(239, 68, 68, 0.4);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+  }
+  .nav a, .nav button, .nav span {
+    margin-left: 10px;
+  }
+}
